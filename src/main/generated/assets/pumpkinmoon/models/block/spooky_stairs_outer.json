@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "pumpkinmoon:block/spooky_planks",
+    "side": "pumpkinmoon:block/spooky_planks",
+    "top": "pumpkinmoon:block/spooky_planks"
+  }
+}

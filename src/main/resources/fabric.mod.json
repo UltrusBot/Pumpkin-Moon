@@ -1,34 +1,37 @@
 {
   "schemaVersion": 1,
-  "id": "templatemod",
+  "id": "pumpkinmoon",
   "version": "${version}",
 
-  "name": "Template Mod",
-  "description": "This mod is a template mod by UltrusBot, if you see this description, I am a fool.",
+  "name": "Pumpkin Moon",
+  "description": "This adds the pumpkin moon from terraria, but in minecraft",
   "authors": [
     "UltrusBot"
   ],
   "contact": {
     "homepage": "https://www.ultrusmods.me/",
-    "sources": "https://github.com/UltrusBot/UltrusModTemplate",
-    "issues": "https://github.com/UltrusBot/UltrusModTemplate/issues"
+    "sources": "https://github.com/UltrusBot/Pumpkin-Moon",
+    "issues": "https://github.com/UltrusBot/Pumpkin-Moon/issues"
   },
 
   "license": "MIT",
-  "icon": "assets/templatemod/icon.png",
+  "icon": "assets/pumpkinmoon/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.ultrusmods.templatemod.ExampleMod"
+      "me.ultrusmods.pumpkinmoon.PumpkinMoonMod"
+    ],
+    "fabric-datagen": [
+      "me.ultrusmods.pumpkinmoon.datagen.PumpkinMoonDatagen"
     ]
   },
   "mixins": [
-    "templatemod.mixins.json"
+    "pumpkinmoon.mixins.json"
   ],
 
   "depends": {
     "fabric": "*",
-    "minecraft": "1.19.x",
+    "minecraft": "1.20.1",
     "java": ">=17"
   }
 }

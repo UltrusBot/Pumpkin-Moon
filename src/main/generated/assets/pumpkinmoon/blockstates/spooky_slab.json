@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pumpkinmoon:block/spooky_slab"
+    },
+    "type=double": {
+      "model": "pumpkinmoon:block/spooky_planks"
+    },
+    "type=top": {
+      "model": "pumpkinmoon:block/spooky_slab_top"
+    }
+  }
+}

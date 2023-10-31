@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "pumpkinmoon:block/spooky_pressure_plate"
+    },
+    "powered=true": {
+      "model": "pumpkinmoon:block/spooky_pressure_plate_down"
+    }
+  }
+}
