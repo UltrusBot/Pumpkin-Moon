@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pumpkinmoon:block/stripped_spooky_log_top",
+    "side": "pumpkinmoon:block/stripped_spooky_log"
+  }
+}

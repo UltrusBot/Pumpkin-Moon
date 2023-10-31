@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "pumpkinmoon:block/stripped_spooky_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "pumpkinmoon:block/stripped_spooky_wood"
+    },
+    "axis=z": {
+      "model": "pumpkinmoon:block/stripped_spooky_wood",
+      "x": 90
+    }
+  }
+}

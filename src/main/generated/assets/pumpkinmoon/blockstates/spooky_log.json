@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "pumpkinmoon:block/spooky_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "pumpkinmoon:block/spooky_log"
+    },
+    "axis=z": {
+      "model": "pumpkinmoon:block/spooky_log_horizontal",
+      "x": 90
+    }
+  }
+}

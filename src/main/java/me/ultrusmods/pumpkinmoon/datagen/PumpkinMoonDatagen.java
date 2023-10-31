@@ -1,5 +1,6 @@
 package me.ultrusmods.pumpkinmoon.datagen;
 
+import me.ultrusmods.pumpkinmoon.block.PumpkinMoonBlockTags;
 import me.ultrusmods.pumpkinmoon.register.PumpkinMoonBlocks;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
@@ -36,6 +37,12 @@ public class PumpkinMoonDatagen implements DataGeneratorEntrypoint {
         public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
             blockStateModelGenerator.registerCubeAllModelTexturePool(PumpkinMoonBlockFamilies.SPOOKY_WOOD.getBaseBlock())
                             .family(PumpkinMoonBlockFamilies.SPOOKY_WOOD);
+            blockStateModelGenerator.registerLog(PumpkinMoonBlocks.SPOOKY_LOG)
+                    .log(PumpkinMoonBlocks.SPOOKY_LOG)
+                    .wood(PumpkinMoonBlocks.SPOOKY_WOOD);
+            blockStateModelGenerator.registerLog(PumpkinMoonBlocks.STRIPPED_SPOOKY_LOG)
+                    .log(PumpkinMoonBlocks.STRIPPED_SPOOKY_LOG)
+                    .wood(PumpkinMoonBlocks.STRIPPED_SPOOKY_WOOD);
         }
 
         @Override
@@ -63,7 +70,13 @@ public class PumpkinMoonDatagen implements DataGeneratorEntrypoint {
                     .add(PumpkinMoonBlocks.SPOOKY_BUTTON);
             getOrCreateTagBuilder(BlockTags.WOODEN_SLABS)
                     .add(PumpkinMoonBlocks.SPOOKY_SLAB);
-
+            getOrCreateTagBuilder(PumpkinMoonBlockTags.SPOOKY_LOGS)
+                    .add(PumpkinMoonBlocks.SPOOKY_LOG)
+                    .add(PumpkinMoonBlocks.STRIPPED_SPOOKY_LOG)
+                    .add(PumpkinMoonBlocks.SPOOKY_WOOD)
+                    .add(PumpkinMoonBlocks.STRIPPED_SPOOKY_WOOD);
+            getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
+                    .add(PumpkinMoonBlocks.SPOOKY_LOG);
         }
     }
 }

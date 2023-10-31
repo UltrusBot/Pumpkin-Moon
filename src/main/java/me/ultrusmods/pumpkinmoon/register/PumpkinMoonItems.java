@@ -29,9 +29,14 @@ public class PumpkinMoonItems {
     public static final Item SPOOKY_PRESSURE_PLATE = registerBlockItem("spooky_pressure_plate", PumpkinMoonBlocks.SPOOKY_PRESSURE_PLATE);
     public static final Item SPOOKY_FENCE = registerBlockItem("spooky_fence", PumpkinMoonBlocks.SPOOKY_FENCE);
     public static final Item SPOOKY_FENCE_GATE = registerBlockItem("spooky_fence_gate", PumpkinMoonBlocks.SPOOKY_FENCE_GATE);
+    public static final Item SPOOKY_LOG = registerBlockItem("spooky_log", PumpkinMoonBlocks.SPOOKY_LOG);
+    public static final Item STRIPPED_SPOOKY_LOG = registerBlockItem("stripped_spooky_log", PumpkinMoonBlocks.STRIPPED_SPOOKY_LOG);
+    public static final Item SPOOKY_WOOD = registerBlockItem("spooky_wood", PumpkinMoonBlocks.SPOOKY_WOOD);
+    public static final Item STRIPPED_SPOOKY_WOOD = registerBlockItem("stripped_spooky_wood", PumpkinMoonBlocks.STRIPPED_SPOOKY_WOOD);
 
     public static void init() {
         // No-op
+
     }
     public static Item register(String name, Item item) {
         ITEMS.add(item);
