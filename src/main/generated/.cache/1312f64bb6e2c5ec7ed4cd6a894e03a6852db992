@@ -1,0 +1,11 @@
+// 1.20.1	2023-10-31T23:36:07.546048007	Pumpkin Moon/Block Loot Tables
+525049cba49dd6aac28f331b6e2c141db869e8f2 data/pumpkinmoon/loot_tables/blocks/spooky_button.json
+9de445bc5e3eafb59fa1313df8134ee5411ec95b data/pumpkinmoon/loot_tables/blocks/spooky_planks.json
+7dcae86c28b5c563ccd06e61ddbb9a2333d86308 data/pumpkinmoon/loot_tables/blocks/spooky_fence.json
+75b58c84a749223426e665e8ab92dd3ae438bc61 data/pumpkinmoon/loot_tables/blocks/stripped_spooky_wood.json
+85b1d73cf966703f9f7192ea7e4132d4090b7a12 data/pumpkinmoon/loot_tables/blocks/spooky_stairs.json
+b95b16ac51204a2ae2385c2fc002710242b8eb26 data/pumpkinmoon/loot_tables/blocks/spooky_wood.json
+dc4b41b8618d6e8bf9ec044834d04c8b48ef534d data/pumpkinmoon/loot_tables/blocks/stripped_spooky_log.json
+de5cb67809302774ace6201bb08830692c9932e2 data/pumpkinmoon/loot_tables/blocks/spooky_pressure_plate.json
+7f2dfe2cbbc05c0661a1b6bc0b3f3ff110caf5e6 data/pumpkinmoon/loot_tables/blocks/spooky_log.json
+36219826710f8a7dab2d03de8cf32f8e9dfa2e9e data/pumpkinmoon/loot_tables/blocks/spooky_fence_gate.json

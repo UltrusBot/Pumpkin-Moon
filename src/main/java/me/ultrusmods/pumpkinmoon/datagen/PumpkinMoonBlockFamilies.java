@@ -13,5 +13,6 @@ public class PumpkinMoonBlockFamilies {
             .fence(PumpkinMoonBlocks.SPOOKY_FENCE)
             .fenceGate(PumpkinMoonBlocks.SPOOKY_FENCE_GATE)
             .group("wooden")
+            .unlockCriterionName("has_planks")
             .build();
 }

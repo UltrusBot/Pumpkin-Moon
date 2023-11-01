@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-31T18:55:04.042517305	Pumpkin Moon/Model Definitions
+// 1.20.1	2023-10-31T23:36:07.548857959	Pumpkin Moon/Model Definitions
 6688002098edfeb8afb8ead35990a4831162c390 assets/pumpkinmoon/models/item/spooky_fence.json
 42c16bfd2df58fec93bb6d6edbef5686c892d44f assets/pumpkinmoon/blockstates/spooky_pressure_plate.json
 3a21e6059e48eb6bcad044ac92b65e508a65c827 assets/pumpkinmoon/models/block/stripped_spooky_wood.json
@@ -14,8 +14,8 @@ b2d5c92ddfcae1ae07be7f104f0eb4c76f474f91 assets/pumpkinmoon/models/item/spooky_b
 1dba3a2e5f250fbc7753a2fc4934cf68162a1a59 assets/pumpkinmoon/blockstates/spooky_stairs.json
 3f73adc0ce3cd23d6fdaf16ee21534a9636474f8 assets/pumpkinmoon/blockstates/spooky_log.json
 72e8badb593e431c9e1b5650fe1a85e7ce755901 assets/pumpkinmoon/models/block/spooky_pressure_plate_down.json
-1734391acb9f73ee4610105264c37bdddb4799e2 assets/pumpkinmoon/blockstates/spooky_button.json
 940190d4082caf09f3b920b76f93593b53ea5c36 assets/pumpkinmoon/blockstates/spooky_planks.json
+1734391acb9f73ee4610105264c37bdddb4799e2 assets/pumpkinmoon/blockstates/spooky_button.json
 a0af2c63aa274c69147a5aad1919ec4f31036588 assets/pumpkinmoon/models/block/spooky_button_inventory.json
 836c4262ab6374ecd39bc3572a738c1295a987ff assets/pumpkinmoon/blockstates/spooky_slab.json
 0b7b246b37956d1b98d7294773fca3d3837a5a15 assets/pumpkinmoon/models/block/spooky_wood.json
