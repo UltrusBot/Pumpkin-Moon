@@ -1,6 +1,7 @@
 package me.ultrusmods.pumpkinmoon;
 
 import me.ultrusmods.pumpkinmoon.register.PumpkinMoonBlocks;
+import me.ultrusmods.pumpkinmoon.register.PumpkinMoonEntities;
 import me.ultrusmods.pumpkinmoon.register.PumpkinMoonItems;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
@@ -14,6 +15,7 @@ public class PumpkinMoonMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Pumpkin Moon has loaded!");
+		PumpkinMoonEntities.init();
 		PumpkinMoonBlocks.init();
 		PumpkinMoonItems.init();
 

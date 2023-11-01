@@ -9,5 +9,9 @@
   "block.pumpkinmoon.spooky_log": "Spooky Log",
   "block.pumpkinmoon.stripped_spooky_log": "Stripped Spooky Log",
   "block.pumpkinmoon.spooky_wood": "Spooky Wood",
-  "block.pumpkinmoon.stripped_spooky_wood": "Stripped Spooky Wood"
+  "block.pumpkinmoon.stripped_spooky_wood": "Stripped Spooky Wood",
+  "entity.pumpkinmoon.haunted_horse": "Haunted Horse",
+  "entity.pumpkinmoon.splinterling": "Splinterling",
+  "item.pumpkinmoon.haunted_horse_spawn_egg": "Haunted Horse Spawn Egg",
+  "item.pumpkinmoon.splinterling_spawn_egg": "Splinterling Spawn Egg"
 }

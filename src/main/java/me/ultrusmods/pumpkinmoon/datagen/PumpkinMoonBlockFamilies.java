@@ -12,5 +12,6 @@ public class PumpkinMoonBlockFamilies {
             .pressurePlate(PumpkinMoonBlocks.SPOOKY_PRESSURE_PLATE)
             .fence(PumpkinMoonBlocks.SPOOKY_FENCE)
             .fenceGate(PumpkinMoonBlocks.SPOOKY_FENCE_GATE)
+            .group("wooden")
             .build();
 }

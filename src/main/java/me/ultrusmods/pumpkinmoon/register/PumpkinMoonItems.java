@@ -3,10 +3,7 @@ package me.ultrusmods.pumpkinmoon.register;
 import me.ultrusmods.pumpkinmoon.PumpkinMoonMod;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.block.Block;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Items;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -34,6 +31,8 @@ public class PumpkinMoonItems {
     public static final Item SPOOKY_WOOD = registerBlockItem("spooky_wood", PumpkinMoonBlocks.SPOOKY_WOOD);
     public static final Item STRIPPED_SPOOKY_WOOD = registerBlockItem("stripped_spooky_wood", PumpkinMoonBlocks.STRIPPED_SPOOKY_WOOD);
 
+    public static final Item HAUNTED_HORSE_SPAWN_EGG = register("haunted_horse_spawn_egg", new SpawnEggItem(PumpkinMoonEntities.HAUNTED_HORSE, 0x000000, 0xFAA228, new Item.Settings()));
+    public static final Item SPLINTERLING_SPAWN_EGG = register("splinterling_spawn_egg", new SpawnEggItem(PumpkinMoonEntities.SPLINTERLING, 0x400094, 0xFAA228, new Item.Settings()));
     public static void init() {
         // No-op
 

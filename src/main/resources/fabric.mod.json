@@ -21,6 +21,9 @@
     "main": [
       "me.ultrusmods.pumpkinmoon.PumpkinMoonMod"
     ],
+    "client": [
+      "me.ultrusmods.pumpkinmoon.client.PumpkinMoonModClient"
+    ],
     "fabric-datagen": [
       "me.ultrusmods.pumpkinmoon.datagen.PumpkinMoonDatagen"
     ]
