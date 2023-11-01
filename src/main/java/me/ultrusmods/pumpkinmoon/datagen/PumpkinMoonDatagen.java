@@ -2,6 +2,7 @@ package me.ultrusmods.pumpkinmoon.datagen;
 
 import me.ultrusmods.pumpkinmoon.block.PumpkinMoonBlockTags;
 import me.ultrusmods.pumpkinmoon.register.PumpkinMoonBlocks;
+import me.ultrusmods.pumpkinmoon.register.PumpkinMoonItems;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -11,6 +12,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.model.BlockStateModelGenerator;
+import net.minecraft.data.client.model.Models;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.registry.HolderLookup;
 import net.minecraft.registry.tag.BlockTags;
@@ -49,6 +51,7 @@ public class PumpkinMoonDatagen implements DataGeneratorEntrypoint {
 
         @Override
         public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+            itemModelGenerator.register(PumpkinMoonItems.PUMPKIN_MOON_MEDALLION, Models.SINGLE_LAYER_ITEM);
         }
     }
     public static class PumpkinMoonBlockTagProvider extends FabricTagProvider.BlockTagProvider {

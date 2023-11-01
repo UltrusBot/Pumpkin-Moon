@@ -13,5 +13,8 @@
   "entity.pumpkinmoon.haunted_horse": "Haunted Horse",
   "entity.pumpkinmoon.splinterling": "Splinterling",
   "item.pumpkinmoon.haunted_horse_spawn_egg": "Haunted Horse Spawn Egg",
-  "item.pumpkinmoon.splinterling_spawn_egg": "Splinterling Spawn Egg"
+  "item.pumpkinmoon.splinterling_spawn_egg": "Splinterling Spawn Egg",
+  "message.pumpkinmoon.not_night": "The power of the pumpkin moon can only be triggered at night.",
+  "message.pumpkinmoon.successful": "You feel all the pumpkins in the world stare at you.",
+  "item.pumpkinmoon.pumpkin_moon_medallion": "Pumpkin Moon Medallion"
 }
