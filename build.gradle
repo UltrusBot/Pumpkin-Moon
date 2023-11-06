@@ -30,32 +30,32 @@ dependencies {
 //	annotationProcessor(libs.mixinextras)
 //	include(libs.mixinextras)
 }
-//publishMods {
-//	displayName = "Mob Origins v$project.version"
-//	file = remapJar.archiveFile
-//	changelog = file("$rootDir/CHANGELOG.md").text
-//	version = project.version
-//	type = STABLE
-//	modLoaders.addAll("fabric", "quilt")
-//	curseforge {
-//		projectId = "449974"
-//		minecraftVersions.add("1.20.2")
-//		accessToken = providers.environmentVariable("CF_API_KEY")
-//	}
-//	modrinth {
-//		projectId = "SXwBmSQG"
-//		minecraftVersions.add("1.20.2")
-//		accessToken = providers.environmentVariable("MODRINTH_TOKEN")
-//	}
-//	github {
-//		repository = "UltrusBot/MobOrigins"
-//		commitish = "1.20.2"
-//		accessToken = providers.environmentVariable("GH_TOKEN")
-//		tagName = "v$project.version"
-//	}
-//
-//	dryRun = false
-//}
+publishMods {
+	displayName = "Pumpkin Moon v$project.version"
+	file = remapJar.archiveFile
+	changelog = file("$rootDir/CHANGELOG.md").text
+	version = project.version
+	type = STABLE
+	modLoaders.addAll("fabric", "quilt")
+	curseforge {
+		projectId = "931339"
+		minecraftVersions.add("1.20.1")
+		accessToken = providers.environmentVariable("CF_API_KEY")
+	}
+	modrinth {
+		projectId = "7QpMAl7m"
+		minecraftVersions.add("1.20.1")
+		accessToken = providers.environmentVariable("MODRINTH_TOKEN")
+	}
+	github {
+		repository = "UltrusBot/Pumpkin-Moon"
+		commitish = "1.20.1"
+		accessToken = providers.environmentVariable("GH_TOKEN")
+		tagName = "v$project.version"
+	}
+
+	dryRun = false
+}
 
 processResources {
 	inputs.property "version", project.version

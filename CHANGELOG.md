@@ -1,0 +1,1 @@
+- The pumpkin medallion is now consumed when used

@@ -8,13 +8,10 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.inventory.StackReference;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
-import net.minecraft.screen.slot.Slot;
 import net.minecraft.text.Text;
-import net.minecraft.util.ClickType;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.Heightmap;
@@ -76,6 +73,10 @@ public class PumpkinMoonMedallionItem extends Item {
                     splinterling.startRiding(hauntedHorse);
                 }
             }
+        }
+        if (spawns > 0 && !user.isCreative()) {
+            user.getStackInHand(hand).decrement(1);
+            return TypedActionResult.success(user.getStackInHand(hand));
         }
 
 
